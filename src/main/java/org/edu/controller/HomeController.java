@@ -18,17 +18,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	/**
+	 * work 페이지 파일 입니다.
+	 
+	 */
+	@RequestMapping(value = "/work", method = RequestMethod.GET)
+	public String work(Locale locale, Model model) {
+		
+		return "work";
+	}
 	
 	/**
-	 * html5 테스트용 파일 입니다.
-	 * @param locale
-	 * @param model
-	 * @return
+	 * we are 페이지 파일 입니다.
+	 
 	 */
-	@RequestMapping(value = "/htmltest", method = RequestMethod.GET)
-	public String htmltest(Locale locale, Model model) {
+	@RequestMapping(value = "/weare", method = RequestMethod.GET)
+	public String weare(Locale locale, Model model) {
 		
-		return "htmltest";
+		return "weare";
 	}
 	
 	/**

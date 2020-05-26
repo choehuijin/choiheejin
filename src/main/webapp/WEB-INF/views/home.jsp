@@ -8,20 +8,34 @@
 <meta charset="UTF-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scaleable=no">
-<title>CHOI HEE JIN</title>
-
+<title>heejin</title>
 <link rel="shortcut icon" href="/images/favicon/favicon.ico">
 <link rel="apple-touch-icon-precomposed"
 	href="/images/favicon/home-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/common.css">
 <style>
 
+/* HOME 슬라이더 영역 CSS */
+.slider img {
+display:block;
+width:100%;
+max-width:100%;
+height:auto;
+}
+
+
+
 </style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/resources/js/common.js"></script>
+<!-- 사용자 스크립트 -->
 <script>
-	
-		
+
 </script>
 </head>
 <body>
+<!-- 더미 데이터:CSS작업전 내용 -->
 	<div id="wrap">
 		<header class="header cfixed">
 			<h1 class="logo">
@@ -29,18 +43,18 @@
 			</h1>
 			<nav>
 				<ul class="gnb">
-					<li><a href="/htmltest">HTML TEST</a></li>
-					<li><a href="">WE ARE</a></li>
-					<li><a href="">WORK</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT US</a></li>
+					<li><a href="/">HOME</a></li>
+					<li><a href="/weare">WE ARE</a></li>
+					<li><a href="/work">WORK</a></li>
+					<li><a href="/blog">BLOG</a></li>
+					<li><a href="contactus">CONTACT US</a></li>
 				</ul>
 			</nav>
 			<span class="menu-toggle-btn"> <span></span> <span></span> <span></span>
 			</span>
 		</header>
 		<article class="slider">
-			<img src="/resources/images/xxx.jpg" alt="">
+			<img src="/resources/images/dog.jpg" alt="">
 		</article>
 		<footer class="footer">
 			<p class="copyright">LOGO</p>
