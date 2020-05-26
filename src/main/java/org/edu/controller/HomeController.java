@@ -18,6 +18,27 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	
+	/**
+	 * contact us 페이지 파일 입니다.
+	 
+	 */
+	@RequestMapping(value = "/contactus", method = RequestMethod.GET)
+	public String contactus(Locale locale, Model model) {
+		
+		return "contactus";
+	}
+	
+	/**
+	 * blog 페이지 파일 입니다.
+	 
+	 */
+	@RequestMapping(value = "/blog", method = RequestMethod.GET)
+	public String blog(Locale locale, Model model) {
+		
+		return "blog";
+	}
+	
 	/**
 	 * work 페이지 파일 입니다.
 	 

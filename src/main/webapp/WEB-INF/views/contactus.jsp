@@ -42,25 +42,37 @@
 			<span class="menu-toggle-btn"> <span></span> <span></span> <span></span>
 			</span>
 		</header>
-		</header>
-		<section class="blog-section">
+		<section class="contact-section">
 			<div class="container">
-				<h2 class="sec-tit">BLOG</h2>
-				<ul class="blog-list">
-					<li><a href="#"><img src="/resources/images/dog.jpg"
-							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
-						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
-					<li><a href="#"><img src="/resources/images/dog.jpg"
-							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
-						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
-					<li><a href="#"><img src="/resources/images/dog.jpg"
-							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
-						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
-				</ul>
+				<h2 class="sec-tit">CONTACT</h2>
+				<div class="form-box">
+					<form action="" method="">
+						<fieldset class="cfixed">
+							<legend class="blind">CANTACT US</legend>
+							<div class="form">
+								<label for="name" class="blind">name</label> 
+								<input type="text" id="name" placeholder="Name"> 
+									<label for="phone" class="blind">phone</label> 
+									<input type="tel" id="phone" placeholder="Phone">
+									<label for="email" class="blind">email</label> 
+									<input type="email" id="email" placeholder="Email Address">
+							</div>
+							<div class="textarea">
+                                    <label for="message" class="blind">message</label>
+                                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                                </div>
+						</fieldset>
+						<div class="send-btn">
+						<button> 메세지 보내기 </button>
+						</div>
+						
+					</form>
+				</div>
 			</div>
+
 		</section>
 		<footer class="footer">
-			<p class="copyright">LOGO</p>
+		<p class="copyright">LOGO</p>
 		</footer>
 		</div>
 		</body>

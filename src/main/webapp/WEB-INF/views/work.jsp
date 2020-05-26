@@ -43,7 +43,8 @@ z-index:10;
 width:100%;
 height:100%;
 background:#3f51b5;
-content:";"opacity:0;
+content:"";
+opacity:0;
 transition:all 0.2s;
 }
 .work-section .work-list li a:hover:before{
@@ -54,7 +55,7 @@ position:absolute;
 top:0;
 left:23px;
 z-index:20;
-opacity:0;
+opacity:0.86;
 transition:all 0.3s;
 }
 .work-section .work-list li a:hover .info{
