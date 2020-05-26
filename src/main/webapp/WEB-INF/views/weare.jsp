@@ -78,7 +78,7 @@ line-height:1.5;
 					<li><a href="/weare">WE ARE</a></li>
 					<li><a href="/work">WORK</a></li>
 					<li><a href="/blog">BLOG</a></li>
-					<li><a href="contactus">CONTACT US</a></li>
+					<li><a href="/contactus">CONTACT US</a></li>
 				</ul>
 			</nav>
 			<span class="menu-toggle-btn"> <span></span> <span></span> <span></span>
