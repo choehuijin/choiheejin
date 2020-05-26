@@ -39,7 +39,7 @@ display:block;
 position:absolute;
 top:0;
 left:0;
-z-index:10;
+z-index:11;
 width:100%;
 height:100%;
 background:#3f51b5;
@@ -55,16 +55,16 @@ position:absolute;
 top:0;
 left:23px;
 z-index:20;
-opacity:0.86;
+opacity:0;
 transition:all 0.3s;
 }
 .work-section .work-list li a:hover .info{
 transform:translateY(23px);
-opacity:1;
+opacity:0.86;
 }
 .work-section .work-list li .info h3{
 margin-bottom:8px;
-font-size:23px;
+font-size:23px; 
 color:#fff;
 font-weight:normal;
 }
