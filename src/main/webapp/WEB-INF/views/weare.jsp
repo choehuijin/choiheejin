@@ -57,6 +57,26 @@ font-family:"궁서";
 color:#616161;
 line-height:1.5;
 }
+/* 태블릿 WE ARE 영역 CSS */
+  .display-section{
+  margin-top:95px;
+  }
+
+  /* 태블릿 WE ARE 내용 영역 CSS */
+  .promotion-section{
+  margin-top:110px;
+  }
+  .promotion-section .promo-list li{
+  float:left;/* 세로로 나열된 컨텐츠를 가로로 배치 하는 역할*/
+  width:23.046875%;
+  /* 177px ÷ 768px*/
+  margin-left:2.604166666666667%;
+  /* 20px ÷ 768px*/
+  margin-top:0;
+  }
+    .promotion-section .promo-list li:first-child{
+  margin-left:0;
+  }
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
@@ -98,28 +118,28 @@ line-height:1.5;
 			<section class="promotion-section">
 				<div class="container">
 					<ul class="promo-list">
-						<li><a href="#"> 
+						<li><a href="#" onclick="return false"> 
 						<img src="/resources/images/dog.jpg" alt="">
 								<h3>HOME</h3>
-								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
 					
-					<li><a href="#"> 
+					<li><a href="#" onclick="return false"> 
 						<img src="/resources/images/dog.jpg" alt="">
 								<h3>HOME</h3>
-								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
 						
-						<li><a href="#"> 
+						<li><a href="#" onclick="return false"> 
 						<img src="/resources/images/dog.jpg" alt="">
 								<h3>HOME</h3>
-								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
 						
-						<li><a href="#"> 
+						<li><a href="#" onclick="return false"> 
 						<img src="/resources/images/dog.jpg" alt="">
 								<h3>HOME</h3>
-								<p>휴면 교육센터 디지털 컨버전스 과정 입니다.</p>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
 						</a></li>
 					
 					</ul>

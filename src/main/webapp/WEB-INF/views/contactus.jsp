@@ -15,6 +15,62 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
 <style>
+.contact-section {
+	margin-top: 109px;
+}
+
+.contact-section .sec-tit {
+	margin-bottom: 47px;
+	text-align: center;
+}
+
+.contact-section .form-box .form input {
+	width: 100%;
+	background: transparent;
+	line-height: 1.2;
+	padding: 0 2px;
+	height: 50px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #dbdbdb;
+}
+
+.blind { /* 라벨 태그 숨기기 */
+	position: absolute;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.contact-section .form-box .textarea textarea {
+	width: 100%;
+	background: transparent;
+	line-height: 1.2;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #dbdbdb;
+	min-height: 150px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+.contact-section .form-box .send-btn {
+	margin-top: 36px;
+	text-align: right;
+}
+
+.contact-section .form-box .send-btn button {
+	padding: 15px;
+	margin: 0;
+	border: 0;
+	font-size: 12px;
+	color: #fff;
+	background: #3f51b5;
+	font-family: 'Montserrat';
+	cursor: pointer;
+}
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
@@ -50,31 +106,35 @@
 						<fieldset class="cfixed">
 							<legend class="blind">CANTACT US</legend>
 							<div class="form">
-								<label for="name" class="blind">name</label> 
-								<input type="text" id="name" placeholder="Name"> 
-									<label for="phone" class="blind">phone</label> 
-									<input type="tel" id="phone" placeholder="Phone">
-									<label for="email" class="blind">email</label> 
-									<input type="email" id="email" placeholder="Email Address">
+								<label for="name" class="blind">name</label> <input type="text"
+									id="name" placeholder="Name"> <label for="phone"
+									class="blind">phone</label> <input type="tel" id="phone"
+									placeholder="Phone"> <label for="email" class="blind">email</label>
+								<input type="email" id="email" placeholder="Email Address">
 							</div>
 							<div class="textarea">
-                                    <label for="message" class="blind">message</label>
-                                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                                </div>
+								<label for="message" class="blind">message</label>
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
 						</fieldset>
 						<div class="send-btn">
-						<button> 메세지 보내기 </button>
+							<button>메세지 보내기</button>
 						</div>
-						
+
 					</form>
 				</div>
 			</div>
 
 		</section>
 		<footer class="footer">
-		<p class="copyright">LOGO</p>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.4493247244097!2d127.11799736520142!3d36.796980329089344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad8068f71cafb%3A0x62dec1edfba08e3!2z7LKc7JWI7IaM67Cp7ISc!5e0!3m2!1sko!2skr!4v1590481367731!5m2!1sko!2skr"
+				width="600" height="450" frameborder="0" style="border: 0;"
+				allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<p class="copyright">LOGO</p>
+
+
 		</footer>
-		</div>
-		</body>
-		</html>
-		
+	</div>
+</body>
+</html>
