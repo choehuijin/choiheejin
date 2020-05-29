@@ -77,6 +77,44 @@ line-height:1.5;
     .promotion-section .promo-list li:first-child{
   margin-left:0;
   }
+  /* PC용 CSS */
+  @media all and (min-width:1132px) 
+  
+   /* PC WE ARE 영역 CSS */
+  .display-section{
+  text-align:left;
+  }
+  .display-section .sec-tit{
+  float:left;
+ 
+  margin-bottom:0;
+  }
+  .display-section .desc{
+  position:relative;
+  float:right;
+  padding-left:20px;
+  font-family:'PT Serif';
+  color:#616161; 
+  line-height:1.9;
+  }
+  .display-section .desc:before{
+  display:block;
+  position:absolute;
+  top:9px;
+  left:0;
+  width:2px;
+  height:44px;
+  background:#e54a4a;
+  content:"";
+  }
+  
+  /* PC WE ARE 내용 영역 CSS */
+  .promotion-section .promo-lost li{
+    width:23.67491166077739%;
+  /* 268px ÷ 1132px*/
+  margin-left:1.76678445229682%;
+  /* 20px ÷ 1132px*/
+  }
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>

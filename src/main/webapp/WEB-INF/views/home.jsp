@@ -14,17 +14,8 @@
 	href="/images/favicon/home-touch-icon.png">
 <link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/user.css">
 <style>
-
-/* HOME 슬라이더 영역 CSS */
-.slider img {
-display:block;
-width:100%;
-max-width:100%;
-height:auto;
-}
-
-
 
 </style>
 <script src="/resources/js/jquery.min.js"></script>
@@ -54,8 +45,98 @@ height:auto;
 			</span>
 		</header>
 		<article class="slider">
+	
+		
 			<img src="/resources/images/dog.jpg" alt="">
 		</article>
+		<section class="content">
+
+			<section class="display-section">
+				<div class="container">
+					<h2 class="sec-tit">WE ARE</h2>
+					<p class="desc">
+						"휴먼 교육센터 디지털 컨버전스 과정 입니다." <br> "그리고, 지금은 화면 설계 시간 입니다."
+					</p>
+				</div>
+			</section>
+
+			<section class="promotion-section">
+				<div class="container">
+					<ul class="promo-list">
+						<li><a href="#" onclick="return false"> 
+						<img src="/resources/images/dog.jpg" alt="">
+								<h3>HOME</h3>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
+						</a></li>
+					
+					<li><a href="#" onclick="return false"> 
+						<img src="/resources/images/dog.jpg" alt="">
+								<h3>HOME</h3>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
+						</a></li>
+						
+						<li><a href="#" onclick="return false"> 
+						<img src="/resources/images/dog.jpg" alt="">
+								<h3>HOME</h3>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
+						</a></li>
+						
+						<li><a href="#" onclick="return false"> 
+						<img src="/resources/images/dog.jpg" alt="">
+								<h3>HOME</h3>
+								<p>휴먼 교육센터 디지털 컨버전스 과정 입니다.</p>
+						</a></li>
+					
+					</ul>
+				</div>
+			</section>
+			
+			<section class="blog-section">
+			<div class="container">
+				<h2 class="sec-tit">BLOG</h2>
+				<ul class="blog-list">
+					<li><a href="#" onclick="return false"><img src="/resources/images/dog.jpg"
+							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
+						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
+					<li><a href="#" onclick="return false"><img src="/resources/images/dog.jpg"
+							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
+						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
+					<li><a href="#" onclick="return false"><img src="/resources/images/dog.jpg"
+							alt=""></a> <time datatime="2016-10-30">OCT 30, 2020</time> <a
+						href=""><h3>타임스페이스는 사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
+				</ul>
+			</div>
+		</section>
+		
+			<section class="contact-section">
+			<div class="container">
+				<h2 class="sec-tit">CONTACT</h2>
+				<div class="form-box">
+					<form action="" method="">
+						<fieldset class="cfixed">
+							<legend class="blind">CANTACT US</legend>
+							<div class="form">
+								<label for="name" class="blind">name</label> <input type="text"
+									id="name" placeholder="Name"> <label for="phone"
+									class="blind">phone</label> <input type="tel" id="phone"
+									placeholder="Phone"> <label for="email" class="blind">email</label>
+								<input type="email" id="email" placeholder="Email Address">
+							</div>
+							<div class="textarea">
+								<label for="message" class="blind">message</label>
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</fieldset>
+						<div class="send-btn">
+							<button>메세지 보내기</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+		</section>
+		
 		<footer class="footer">
 			<p class="copyright">LOGO</p>
 		</footer>
