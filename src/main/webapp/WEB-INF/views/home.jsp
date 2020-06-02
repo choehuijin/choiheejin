@@ -164,9 +164,9 @@
       
       </div>
       <div class="modal-footer">
-       <button type="button" class="btn btn-secondary">수정</button> 
-       <button type="button" class="btn btn-secondary">삭제</button>
-       <button type="button" class="btn btn-primary" data-dismiss="modal">닫기</button>
+       <button type="button" class="btn btn-info">수정</button> 
+       <button type="button" class="btn btn-danger">삭제</button>
+       <button type="button" class="btn" data-dismiss="modal">닫기</button>
         
       </div>
     </div>

@@ -480,10 +480,10 @@ body footer p small a:hover, body footer p small a:active {
   </script>
 	<section class="banner_slider">
 		<div id="slider" class="nivoSlider">
-			<img src="/resources/images/dog3.jpg" title="슬라이드1" />
-			<img src="/resources/images/dog2.jpg" title="슬라이드2" />
-			<img src="/resources/images/dog4.jpg" title="슬라이드3" />
-			<img src="/resources/images/dog5.jpg" title="슬라이드4" />
+			<img src="/resources/images/slide1.jpg" title="슬라이드1" />
+			<img src="/resources/images/slide2.jpg" title="슬라이드2" />
+			<img src="/resources/images/slide3.jpg" title="슬라이드3" />
+			<img src="/resources/images/slide4.jpg" title="슬라이드4" />
 		</div>
 	</section>
 	<section id="contents" class="row">
