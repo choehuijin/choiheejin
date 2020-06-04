@@ -53,7 +53,7 @@ font-weight:normal;
 }
 .promotion-section .promo-list li p {
 font-size:14px;
-font-family:"궁서";
+font-family:"굴림";
 color:#616161;
 line-height:1.5;
 }

@@ -35,9 +35,12 @@
 	<div id="wrap">
 		<header class="header cfixed">
 			<h1 class="logo">
-				<a href="">LOGO</a>
-			</h1>
-			<nav>
+				<a href=""></a>
+	        </h1>
+	        		<a href="#" onclick="return false"> 
+			<img src="/resources/images/logo.png" alt=""></a>
+	        
+	      <nav>
 				<ul class="gnb">
 					<li><a href="/">HOME</a></li>
 					<li><a href="/weare">WE ARE</a></li>
@@ -95,7 +98,66 @@
 					</ul>
 				</div>
 			</section>
+			<section class="work-section cfixed">
+		<h2 class="sec-tit">WORK</h2>
+		<ul class="work-list">
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
 			
+			<li><a href="#" onclick="return false" >
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+			<li><a href="#" onclick="return false">
+					<div class="info">
+						<h3>작업1</h3>
+						<span>소스/작업1</span>
+					</div> <img src="/resources/images/dog.jpg" alt="">
+			</a></li>
+			
+		</ul>
+	</section>
 			<section class="blog-section">
 			<div class="container">
 				<h2 class="sec-tit">BLOG</h2>
@@ -143,6 +205,10 @@
 		</section>
 		
 		<footer class="footer">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.4493247244097!2d127.11799736520142!3d36.796980329089344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ad8068f71cafb%3A0x62dec1edfba08e3!2z7LKc7JWI7IaM67Cp7ISc!5e0!3m2!1sko!2skr!4v1590481367731!5m2!1sko!2skr"
+				width="600" height="450" frameborder="0" style="border: 0;"
+				allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 			<p class="copyright">LOGO</p>
 		</footer>
 	</div>
