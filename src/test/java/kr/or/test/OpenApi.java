@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Calendar;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 public class OpenApi {
    
@@ -13,7 +16,7 @@ public class OpenApi {
    public static void serviceApi() {
       BufferedReader br = null; //HRD넷에서 전송 받은 데이터를 일시 저장하는 저수지 같은 역할
       String urlstr = "http://www.hrd.go.kr/jsp/HRDP/HRDPO00/HRDPOA60/HRDPOA60_1.jsp?returnType=XML"
-    		  + "&authKey=yKt63a6Wtxfq282kkIdQAZVXtSlPW5GF&pageNum=1&pageSize=10"
+    		  + "&authKey=인증키부분&pageNum=1&pageSize=10"
     		  + "&srchTraStDt=20200622&srchTraEndDt=20200922&outType=1&sort=ASC&sortCol=TR_STT_DT";
       try {
          URL url = new URL(urlstr);
@@ -26,7 +29,9 @@ public class OpenApi {
     			  result = result + line + "\n";
     			  //1부터 100까지 더하는 로직과 같음
     		  }
-    			  System.out.println(result);
+    			  //System.out.println(result);
+    			  String result_xmlUtils =  XmlUtils.formatXml(result);
+    			  System.out.println(result_xmlUtils);
       
       } catch (MalformedURLException e) {
          e.printStackTrace();
@@ -34,10 +39,22 @@ public class OpenApi {
          // TODO Auto-generated catch block
          e.printStackTrace();
       }
-   }
+      //콘솔 화면에 현재 PC시간을 표시
+      Calendar cal = Calendar.getInstance();
+      System.out.println(cal.getTime());
+      }
 
    public static void main(String[] args) {
-      serviceApi();
+	   //실행간격 지정 (5초)
+	   int sleepSec = 5;
+	   //주기적인 작업을 위한 코딩 exec 실행가능한 클래스 만듦
+	   final ScheduledThreadPoolExecutor exec = new ScheduledThreadPoolExecutor(1);
+	   exec.scheduleAtFixedRate(new Runnable() {
+		   public void run( ) {
+			   serviceApi();
+		   }
+	   },0, sleepSec, TimeUnit.SECONDS);
+	   serviceApi();	   
+      
    }
-
 }
