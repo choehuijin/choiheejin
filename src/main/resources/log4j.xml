@@ -10,6 +10,8 @@
 		</layout>
 	</appender>
 	
+	
+	
 	<!-- Application Loggers -->
 	<logger name="org.edu.controller">
 		<level value="info" />
