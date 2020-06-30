@@ -1,4 +1,2 @@
-2020-06-22 10:56:56,175  INFO [kr.or.test.Log4jTest] 인포!!
-2020-06-22 10:56:56,175  WARN [kr.or.test.Log4jTest] 워닝!!
-2020-06-22 10:56:56,175 ERROR [kr.or.test.Log4jTest] 에러!!
-2020-06-22 10:56:56,175 FATAL [kr.or.test.Log4jTest] 파탈에러!!
+2020-06-26 15:43:59,838  INFO [org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory] Shutting down embedded database: url='jdbc:hsqldb:mem:dataSource'
+2020-06-26 15:43:59,838 DEBUG [org.springframework.jdbc.datasource.SimpleDriverDataSource] Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:dataSource]
