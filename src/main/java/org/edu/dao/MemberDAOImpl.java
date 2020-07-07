@@ -16,6 +16,7 @@ public class MemberDAOImpl implements IF_MemberDAO {
 	private SqlSession sqlSession;
 	
 	
+//void는 return값이 없음
 	
 	@Override
 	public void insertMember(MemberVO memberVO) throws Exception {
