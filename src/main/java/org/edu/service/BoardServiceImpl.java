@@ -60,6 +60,7 @@ public class BoardServiceImpl implements IF_BoardService {
 
 	@Override
 	public BoardVO viewBoard(Integer bno) throws Exception {
+		boardDAO.updateViewCount(bno); //조회수 설정을 위해 리턴 전에 추가해준 값
 		return boardDAO.viewBoard(bno);
 	}
 
