@@ -15,9 +15,7 @@ public class OpenApi {
 	//외부연계 메서드
 	public static void serviceApi() {
 		BufferedReader br = null; //HRD넷에서 전송받은 데이터를 일시저장하는 저수지와 같은 역할
-		String urlstr = "http://www.hrd.go.kr/jsp/HRDP/HRDPO00/HRDPOA60/HRDPOA60_1.jsp?returnType=XML"
-				+ "&authKey=인증키부분&pageNum=1&pageSize=10"
-				+ "&srchTraStDt=20200622&srchTraEndDt=20200922&outType=1&sort=ASC&sortCol=TR_STT_DT";
+		String urlstr = "http://www.hrd.go.kr/jsp/HRDP/HRDPO00/HRDPOA60/HRDPOA60_1.jsp?returnType=XML" + "&authKey=CuboalqQDZK5Ox3CswVnpGIf2kewhAMg&pageNum=1&pageSize=10"+ "&srchTraStDt=20200622&srchTraEndDt=20200922&outType=1&sort=ASC&sortCol=TR_STT_DT";
 		try {
 			URL url = new URL(urlstr);
 			HttpURLConnection urlconnection = (HttpURLConnection) url.openConnection();
@@ -45,7 +43,7 @@ public class OpenApi {
 	}
 	public static void main(String[] args) {
 		//실행간격 지정(5초)
-		int sleepSec = 5;
+		int sleepSec = 100;
 		//주기적인 작업을 위한 코딩 exec 실행가능한 클래스만듬
 		final ScheduledThreadPoolExecutor exec = new ScheduledThreadPoolExecutor(1);
 		exec.scheduleAtFixedRate(new Runnable() {
